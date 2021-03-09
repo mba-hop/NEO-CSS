@@ -7,3 +7,34 @@ header {
 img#logo {
   width: 96px;
 }
+#top-menu > li > a {
+  font-family: Proxima Soft, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+}
+#top-menu li.current-menu-item > a {
+  color: #fff;
+  font-weight: 700;
+}
+ul#top-menu > li:last-child > a {
+  background: rgba(255, 255, 255, 0.16);
+  padding: 10px 20px !important;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+ul#top-menu > li:last-child {
+  font-size: 15px;
+  font-weight: 500;
+}
+ul#top-menu > li:last-child > a::after {
+  content: '\f023';
+  margin: 0px 0px 0px 5px;
+  font-family: "Font Awesome 5 Free" !important;
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 14px;
+  align-items: center;
+}
