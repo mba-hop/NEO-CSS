@@ -1,0 +1,7 @@
+.hero-home {
+  padding: 0;
+  background: linear-gradient(90deg, #F5A100 0%, #F26A1F 51.23149753%, #F43B3B 100%), url("https://neocrm.me/wp-content/uploads/2021/03/freelance-zone-top.png") no-repeat right top;
+  color: #fff;
+  background-position: right;
+  background-size: contain;
+}
